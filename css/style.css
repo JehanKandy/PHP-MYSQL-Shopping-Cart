@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web&family=Ubuntu:wght@700&display=swap');
+.user-reg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(231, 231, 231, 0.26);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    background-image: url("../images_site/back.jpg");
+}
+
+.user-reg .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a a b c" "a a d e";
+}
+
+.reg-item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    background-image: url("../images_site/reg_back.webp");
+    opacity: 0.9;
+}
+
+.reg-item1 .reg-box {
+    background-color: white;
+    padding: 50px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    border: none;
+    border-radius: 15px;
+}
+
+.reg-item1 .reg-box h1 {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.reg-item1 .reg-box p {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.reg-item2 {
+    grid-area: b;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    background-image: url("../images_site/phone2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+}
+
+.reg-item3 {
+    grid-area: c;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    background-image: url("../images_site/phone1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+}
+
+.reg-item4 {
+    grid-area: d;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    background-image: url("../images_site/phone3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+}
+
+.reg-item5 {
+    grid-area: e;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    background-image: url("../images_site/phone4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+}
